@@ -1,0 +1,6 @@
+code128==0.3
+numpy==1.21.2
+opencv-python==4.5.3.56
+Pillow==8.3.1
+pyzbar==0.1.8
+tk==0.1.0
