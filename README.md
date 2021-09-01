@@ -1,20 +1,33 @@
-# Bar Code
-Scan or Generate bar codes for any number or name.
+# Bar Code (v1.0)
 
-# Packages
-Install these packages in your system to run code but no package needed to run setup file.
-<ul>
-<li>pip install tkinter</li>
-<li>pip install threading</li>
-<li>pip install opencv-python</li>
-<li>pip install pillow</li>
-<li>pip install code128</li>
-<li>pip install pyzbar</li>
-</ul>
+Scan & Generate Bar Codes.
 
-# Releases
-<h2>v1.0</h2>
-<ul>
-  <li>Scan bar code.</li>
-  <li>Generate bar code.</li>
-</ul>
+# Download Code
+
+## Linux
+### Installing
+<li>Install python3 on your device. Then run</li>
+
+```cmd
+sudo apt-get install -y python3-pip
+sudo apt-get install -y python3-venv
+```
+
+<li>Now run these commands to download & run code</li>
+
+```cmd
+git clone https://github.com/cybersaksham/Bar-Code
+cd Bar-Code
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
+
+### Uninstalling
+```cmd
+deactivate
+cd ..
+rm -rf Bar-Code
+```
+
